@@ -1,4 +1,10 @@
 {
   "private": true,
-  "workspaces": ["app", "api"]
+  "workspaces": [
+    "app",
+    "api"
+  ],
+  "devDependencies": {
+    "prettier": "^2.0.1"
+  }
 }
