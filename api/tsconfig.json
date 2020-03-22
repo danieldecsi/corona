@@ -1,5 +1,4 @@
 {
-  "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -11,6 +10,9 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "incremental": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@shared/*": ["../../shared/*"]
+    }
   }
 }

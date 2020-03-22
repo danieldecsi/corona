@@ -2,7 +2,8 @@
   "private": true,
   "workspaces": [
     "app",
-    "api"
+    "api",
+    "shared"
   ],
   "devDependencies": {
     "@react-native-community/eslint-config": "^0.0.7",

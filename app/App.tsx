@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import { SubmitLocationDataRequest } from '@shared/types'
 
 const styles = StyleSheet.create({
   container: {
@@ -10,7 +11,10 @@ const styles = StyleSheet.create({
   },
 })
 
-const a: SubmitLocationDataRequest = {}
+const a: SubmitLocationDataRequest = {
+  deviceId: 'deviceId',
+  locations: [],
+}
 
 export default function App() {
   return (
