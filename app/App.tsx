@@ -10,6 +10,8 @@ const styles = StyleSheet.create({
   },
 })
 
+const a: SubmitLocationDataRequest = {}
+
 export default function App() {
   return (
     <View style={styles.container}>
