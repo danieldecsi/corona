@@ -1,4 +1,7 @@
 {
-  "private": true,
-  "workspaces": ["app", "api"]
+  "private": false,
+  "workspaces": [
+    "app",
+    "api"
+  ]
 }
