@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "@react-native-community",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react", "@typescript-eslint", "prettier", "react-hooks", "import"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "import/order": ["error", { "newlines-between": "always" }],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/jsx-one-expression-per-line": "off",
+    "arrow-body-style": ["error", "as-needed"],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react/prop-types": "off",
+    "@typescript-eslint/no-empty-function": 1,
+    "camelcase": "warn",
+    "@typescript-eslint/camelcase": "warn",
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": ["error", { "additionalHooks": "(useCode|useMemoOne)" }],
+    "no-alert": "warn"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
+  "parser": "@typescript-eslint/parser"
+}

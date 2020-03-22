@@ -1,0 +1,6 @@
+**/registerServiceWorker.*
+**/serviceWorker.*
+**/__tests__/**
+**/node_modules
+react-app-env.d.ts
+.vscode/**
